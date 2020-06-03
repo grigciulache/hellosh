@@ -3,7 +3,7 @@ pipeline{
     environment {
         registry = "grigciulache/httpd"
         registryCredential = 'dockerhub'
-        projectGit='https://github.com/grigciulache/hellops.git'
+        projectGit='https://github.com/grigciulache/hellosh.git'
     } 
     agent any
     stages{
