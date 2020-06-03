@@ -17,7 +17,7 @@ pipeline{
         stage('Run Application'){
             steps{
                     echo 'Run Application'      
-                     powershell label: '', script: './hello'
+                    // powershell label: '', script: './hello'
             }
         }
     }
