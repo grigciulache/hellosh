@@ -19,7 +19,7 @@ pipeline{
                     //sh label: '', script: 'echo "hello from sh"
                     //sudo chmod 777 hello.sh'
                     sh label: '', script: '''echo "hello from sh"
-sudo chmod 777 hello.sh
+sudo chmod 777 hello.sh ./hello.sh
 '''
             }
         }
